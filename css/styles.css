@@ -112,6 +112,13 @@ body {
 
 .main-section-hero {
   background-color: var(--background-color);
+  width: 1600px;
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(/images/herobg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -251,6 +258,23 @@ body {
   line-height: 1.18;
   text-align: center;
   color: var(--description-color);
+  margin-bottom: 16px;
+}
+.master-social-list {
+  display: flex;
+  justify-content: center;
+}
+.master-social-item + .master-social-item {
+  margin-left: 10px;
+}
+.master-social-link {
+  width: 44px;
+  height: 44px;
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
 
 /* === footer =================== */
