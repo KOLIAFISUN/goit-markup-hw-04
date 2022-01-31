@@ -8,6 +8,7 @@
   --rgba-color: rgba(100%, 100%, 100%, 60%);
   --background-color: #2f303a;
   --black-color: #000000;
+  --icon-fill: #afb1b8;
 }
 .list {
   list-style: none;
@@ -106,6 +107,12 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--description-color);
+  display: flex;
+  flex-direction: row-reverse;
+}
+.header-social-icon {
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 /* === main section hero */
@@ -270,13 +277,21 @@ body {
 .master-social-link {
   width: 44px;
   height: 44px;
-  background-color: teal;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  background-color: var(--white-color);
+  color: var(--icon-fill);
 }
-
+.master-social-icon {
+  fill: currentColor;
+}
+.master-social-link:hover,
+.master-social-link:focus {
+  background-color: var(--alt-color);
+  color: var(--white-color);
+}
 /* === footer =================== */
 
 .footer-section {
@@ -302,6 +317,9 @@ body {
 }
 .footer-container {
   display: flex;
+}
+.footer-container-address {
+  display: flex;
   flex-direction: column;
 }
 .footer-section-address-mail {
@@ -320,6 +338,43 @@ body {
 .footer-section-address-tel:hover,
 .footer-section-address-tel:focus {
   color: var(--white-color);
+}
+.footer-injoy-section {
+  padding-left: 70px;
+  padding-top: 12px;
+}
+.footer-injoy-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.footer-social-list {
+  display: flex;
+}
+.footer-social-item + .footer-social-item {
+  margin-left: 10px;
+}
+.footer-social-link {
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white-color);
+}
+
+.footer-social-icon {
+  fill: currentColor;
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--alt-color);
 }
 
 /* ========================== portfolio ==================== */
