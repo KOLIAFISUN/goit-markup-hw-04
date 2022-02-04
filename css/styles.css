@@ -299,6 +299,42 @@ body {
   background-color: var(--alt-color);
   color: var(--white-color);
 }
+/* === main section regular clients */
+.regular-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.regular-clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 50px;
+}
+.regular-clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+.regular-clients-item {
+}
+.regular-clients-social-link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icon-fill);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--icon-fill);
+}
+.regular-clients-social-icon {
+  fill: currentColor;
+}
+.regular-clients-social-link:hover,
+.regular-clients-social-link:focus {
+  color: var(--alt-color);
+  border: 1px solid var(--alt-color);
+}
 /* === footer =================== */
 
 .footer-section {
