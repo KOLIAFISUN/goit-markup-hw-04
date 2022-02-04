@@ -197,6 +197,13 @@ body {
   line-height: 1.92;
   color: var(--description-color);
 }
+.with-us-social-link {
+  margin-bottom: 55px;
+  display: flex;
+  justify-content: center;
+}
+.with-us-social-icon {
+}
 /* main section what are we doing */
 
 .what-are-we-doing {
