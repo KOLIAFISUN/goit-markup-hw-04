@@ -298,6 +298,7 @@ body {
 .master-social-link:focus {
   background-color: var(--alt-color);
   color: var(--white-color);
+  box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.25);
 }
 /* === main section regular clients */
 .regular-clients {
@@ -464,6 +465,7 @@ body {
 .button-all:focus {
   color: var(--white-color);
   background-color: #188ce8;
+  box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.25);
 }
 .button {
   font-family: inherit;
@@ -478,6 +480,7 @@ body {
 .button:hover,
 .button:focus {
   color: var(--alt-color);
+  box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.25);
 }
 .button-website {
   min-width: 128px;
@@ -494,6 +497,9 @@ body {
 .button-marketing {
   min-width: 130px;
   min-height: 38px;
+}
+.portfolio-work-item:hover {
+  box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.25);
 }
 .portfolio-card {
   padding: 20px 24px;
