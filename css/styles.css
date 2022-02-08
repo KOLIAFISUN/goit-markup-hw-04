@@ -197,7 +197,8 @@ body {
   line-height: 1.92;
   color: var(--description-color);
 }
-.with-us-social-link {
+.with-us-social-container {
+  background-color: #f5f4fa;
   margin-bottom: 55px;
   display: flex;
   justify-content: center;
