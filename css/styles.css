@@ -180,7 +180,6 @@ body {
   width: 1170px;
 }
 .with-us-item {
-  width: 270px;
 }
 .with-us-item:not(:last-child) {
   margin-right: 30px;
@@ -199,9 +198,14 @@ body {
 }
 .with-us-social-container {
   background-color: #f5f4fa;
-  margin-bottom: 55px;
+  border-radius: 4px;
+  margin-bottom: 30px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .with-us-social-icon {
 }
@@ -234,6 +238,7 @@ body {
 .our-team {
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: #f5f4fa;
 }
 .our-team-title {
   font-weight: 700;
@@ -253,6 +258,10 @@ body {
   margin-left: 30px;
   margin-bottom: 30px;
   flex-basis: calc((100% - 120px) / 4);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--white-color);
 }
 .our-teeam-card {
   padding-top: 30px;
@@ -279,6 +288,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .master-social-item + .master-social-item {
   margin-left: 10px;
 }
@@ -299,7 +309,7 @@ body {
 .master-social-link:focus {
   background-color: var(--alt-color);
   color: var(--white-color);
-  box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 /* === main section regular clients */
 .regular-clients {
@@ -323,6 +333,7 @@ body {
 .regular-clients-social-link {
   width: 170px;
   height: 92px;
+  border-radius: 4px;
   border: 1px solid var(--icon-fill);
   display: flex;
   justify-content: center;
@@ -336,6 +347,7 @@ body {
 .regular-clients-social-link:focus {
   color: var(--alt-color);
   border: 1px solid var(--alt-color);
+  border-radius: 4px;
 }
 /* === footer =================== */
 
@@ -461,12 +473,13 @@ body {
   border-radius: 10%;
   min-width: 73px;
   min-height: 38px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
 }
 .button-all:hover,
 .button-all:focus {
   color: var(--white-color);
   background-color: #188ce8;
-  box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .button {
   font-family: inherit;
@@ -477,11 +490,14 @@ body {
   cursor: pointer;
   color: var(--main-color);
   border-style: none;
+  background-color: #f5f4fa;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
 }
 .button:hover,
 .button:focus {
-  color: var(--alt-color);
-  box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.25);
+  color: var(--white-color);
+  background-color: var(--alt-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .button-website {
   min-width: 128px;
@@ -499,8 +515,11 @@ body {
   min-width: 130px;
   min-height: 38px;
 }
+.portfolio-work-item {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
 .portfolio-work-item:hover {
-  box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .portfolio-card {
   padding: 20px 24px;
